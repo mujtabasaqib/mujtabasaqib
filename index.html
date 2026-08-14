@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mujtaba Saqib — Full-Stack Engineer, Fintech &amp; Web3</title>
+<meta name="description" content="Full-stack software engineer specializing in fintech and web3 products. Next.js, Solidity, Solana.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================= NAV ============================= -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="Primary">
+    <a href="#top" class="nav__logo" aria-label="Mujtaba Saqib — home">
+      <span class="nav__logo-mark">MS</span>
+      <span class="nav__logo-text">Mujtaba Saqib</span>
+    </a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav__menu" id="navMenu">
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--ghost btn--small nav__cta">Get in touch</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="top">
+    <div class="container hero__inner">
+
+      <p class="eyebrow reveal">Full-Stack Engineer — Fintech &amp; Web3</p>
+
+      <h1 class="hero__headline reveal">
+        Building fast, reliable
+        <span class="hero__headline-accent">financial &amp; on-chain</span>
+        products.
+      </h1>
+
+      <p class="hero__intro reveal">
+        I'm a full-stack developer working primarily in Next.js, building neobank
+        platforms, vesting protocols and verification systems for fintech and web3
+        teams — from smart contract to production deploy.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#work" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--secondary">Start a project</a>
+      </div>
+
+      <div class="availability reveal" role="status">
+        <span class="availability__dot" aria-hidden="true"></span>
+        <span>Available for freelance engagements</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================= FEATURED PROJECTS ============================= -->
+  <section class="projects" id="work">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured Work</p>
+        <h2 class="section-title">Products shipped end to end</h2>
+        <p class="section-desc">
+          Each one covers the full stack — contracts or backend, admin tooling,
+          and the production frontend
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <img
+    src="screenshots/vestly.png"
+    alt="Vesting dashboard"
+  />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__top">
+              <h3 class="project-card__title">Vestly</h3>
+              <span class="project-card__tag-pill">Web3 / DeFi</span>
+            </div>
+            <p class="project-card__desc">
+              A token vesting dashboard for DAOs and founding teams — cliff and
+              linear schedules, on-chain claim flow, and a real-time release
+              calendar for stakeholders.
+            </p>
+            <ul class="tech-tags" aria-label="Technologies used">
+              <li>Solidity</li><li>Hardhat</li><li>Next.js</li><li>Tailwind</li><li>Shadcn</li><li>Ethers.js</li><li>Wagmi</li><li>Infura</li>
+            </ul>
+            <dl class="meta-readout">
+              <div><dt>status</dt><dd><span class="meta-dot" aria-hidden="true"></span>live on vercel</dd></div>
+              <div><dt>network</dt><dd>ethereum · sepolia testnet</dd></div>
+            </dl>
+            <div class="project-card__links">
+              <a href="https://vestly-ashen.vercel.app/" class="link-arrow">Live deploy <span aria-hidden="true">→</span></a>
+              <a href="https://github.com/mujtabasaqib/token-vesting-dapp" class="link-arrow">Source <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <img
+    src="screenshots/rivio.png"
+    alt="Wallet App"
+  />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__top">
+              <h3 class="project-card__title">RivioPay</h3>
+              <span class="project-card__tag-pill">Fintech / Web2</span>
+            </div>
+            <p class="project-card__desc">
+              A digital-wallet app with card issuance, P2P transfers and a
+              full admin console for KYC review, ledger reconciliation and
+              fraud flags.
+            </p>
+            <ul class="tech-tags" aria-label="Technologies used">
+              <li>Next.js</li><li>Tailwind</li><li>Shadcn</li><li>Flutter</li><li>Node.js</li><li>Express</li><li>PostgreSQL</li><li>Supabase</li><li>TypeScript</li>
+            </ul>
+            <dl class="meta-readout">
+              <div><dt>status</dt><dd><span class="meta-dot" aria-hidden="true"></span>live on vercel</dd></div>
+              <div><dt>modules</dt><dd>customer app · admin dashboard</dd></div>
+            </dl>
+            <div class="project-card__links">
+              <a href="https://riviopay.vercel.app/" class="link-arrow">Live deploy <span aria-hidden="true">→</span></a>
+              <a href="https://github.com/mujtabasaqib/riviopay" class="link-arrow">Source <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <img
+    src="screenshots/ce.png"
+    alt="Certificate Verifier"
+  />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__top">
+              <h3 class="project-card__title">Blockcerts Verifier</h3>
+              <span class="project-card__tag-pill">Web3 / Verification</span>
+            </div>
+            <p class="project-card__desc">
+              A certificate-verification registry that anchors document hashes
+              on-chain, so institutions and employers can confirm authenticity
+              in one lookup — no intermediary required.
+            </p>
+            <ul class="tech-tags" aria-label="Technologies used">
+              <li>Next.js</li><li>Tailwind</li><li>Bitcoin</li><li>Ethereum</li><li>Blockcerts Standard</li>
+            </ul>
+            <dl class="meta-readout">
+              <div><dt>status</dt><dd><span class="meta-dot" aria-hidden="true"></span>live on vercel</dd></div>
+              <div><dt>network</dt><dd>bitcoin testnet</dd></div>
+            </dl>
+            <div class="project-card__links">
+              <a href="https://blockcerts-verifier-two.vercel.app/" class="link-arrow">Live deploy <span aria-hidden="true">→</span></a>
+              <a href="https://github.com/mujtabasaqib/certificate-verifier" class="link-arrow">Source <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <div class="project-card__media">
+            <img
+    src="screenshots/cg.png"
+    alt="Crypto Price Tracker"
+  />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__top">
+              <h3 class="project-card__title">CoinGres</h3>
+              <span class="project-card__tag-pill">Fintech / Data</span>
+            </div>
+            <p class="project-card__desc">
+              A real-time crypto price tracker with trading charts, coin
+              details and a market tree map, built on streaming market
+              data.
+            </p>
+            <ul class="tech-tags" aria-label="Technologies used">
+              <li>Next.js</li><li>React</li><li>React-DOM</li><li>Shadcn</li><li>Tailwind</li><li>Recharts</li>
+            </ul>
+            <dl class="meta-readout">
+              <div><dt>status</dt><dd><span class="meta-dot" aria-hidden="true"></span>live on vercel</dd></div>
+              <div><dt>data</dt><dd>real-time · streaming feed</dd></div>
+            </dl>
+            <div class="project-card__links">
+              <a href="https://coingres.vercel.app/" class="link-arrow">Live deploy <span aria-hidden="true">→</span></a>
+              <a href="https://github.com/mujtabasaqib/coingres-app" class="link-arrow">Source <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================= ABOUT ============================= -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">Building products from idea to deployment.</h2>
+      </div>
+
+      <div class="about__content reveal">
+       <p>
+  I'm a full-stack developer building fintech and Web3 products, with a focus
+  on wallet flows, ledgers, vesting systems, and verification workflows.
+  Next.js is my primary framework for building end to end, complemented by
+  Solidity and Anchor when applications need on-chain functionality.
+</p>
+<p>
+  I care about developing software that is reliable, maintainable, and ready for
+  real users. The projects here reflect that approach — from architecture and
+  backend logic to polished interfaces and production deployments.
+</p>
+        <p class="about__footnote">Currently pursuing a BS in Software Engineering.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <p class="eyebrow reveal">Contact</p>
+      <h2 class="contact__headline reveal">Have a project in mind?</h2>
+      <p class="contact__desc reveal">
+        Tell me what you're building, and let's explore how
+  we can turn the idea into something real.
+      </p>
+      <a href="mailto:mujtabasaqib03@gmail.com" class="btn btn--primary contact__cta reveal">mujtabasaqib03@gmail.com</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p>&copy; <span id="year"></span> Mujtaba Saqib</p>
+    <ul class="site-footer__socials">
+      <li>
+        <a href="https://github.com/mujtabasaqib" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </li>
+      <li><a href="https://linkedin.com/in/mujtabasaqib" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
